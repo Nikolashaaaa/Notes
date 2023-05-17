@@ -8,9 +8,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="@color/black">
+    
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView_home"
+        android:layout_margin="16dp"
+        app:queryHint="Search in notes"
+        app:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_home"
+        android:layout_below="@id/searchView_home"
         android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
