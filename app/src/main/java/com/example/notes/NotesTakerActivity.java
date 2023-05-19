@@ -48,8 +48,8 @@ public class NotesTakerActivity extends AppCompatActivity {
                 String title = editText_title.getText().toString();
                 String description = editText_notes.getText().toString();
 
-                if(description.isEmpty()) {
-                    Toast.makeText(NotesTakerActivity.this, "Please enter description", Toast.LENGTH_SHORT).show();
+                if(title.isEmpty()) {
+                    Toast.makeText(NotesTakerActivity.this, "Please enter title", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss");
