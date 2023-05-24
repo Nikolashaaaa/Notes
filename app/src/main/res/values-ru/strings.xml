@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="search_hint">Поиск в заметках</string>
+    <string name="ToastPin">Закреплено</string>
+    <string name="ToastUnpin">Откреплено</string>
+    <string name="ToastDelete">Заметка удалена</string>
+    <string name="pin">Закрепить/Открепить</string>
+    <string name="delete">Удалить заметку</string>
+    <string name="editText_notes_hint">Text</string>
+    <string name="editText_title_hint">Title</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete_note">Delete note</string>
+</resources>

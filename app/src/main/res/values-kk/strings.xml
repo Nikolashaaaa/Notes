@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ескертпелер</string>
+    <string name="search_hint">Жазбалардан іздеу</string>
+    <string name="ToastPin">Бекітілген</string>
+    <string name="ToastUnpin">Бекітілді</string>
+    <string name="ToastDelete">Ескертпе жойылды</string>
+    <string name="pin">Бекіту/Босату</string>
+    <string name="delete">Жазбаны жою</string>
+    <string name="editText_notes_hint">Text</string>
+    <string name="editText_title_hint">Title</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete_note">Delete note</string>
+</resources>

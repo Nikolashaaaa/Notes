@@ -144,10 +144,10 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         if (itemId == R.id.pin) {
             if (selectedNote.isPinned()) {
                 database.mainDAO().pin(selectedNote.getID(), false);
-                Toast.makeText(MainActivity.this, "Unpinned", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.ToastUnpin, Toast.LENGTH_SHORT).show();
             } else {
                 database.mainDAO().pin(selectedNote.getID(), true);
-                Toast.makeText(MainActivity.this, "Pinned", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.ToastPin, Toast.LENGTH_SHORT).show();
             }
             notes.clear();
             notes.addAll(database.mainDAO().getAll());
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             database.mainDAO().delete(selectedNote);
             notes.remove(selectedNote);
             notesListAdapter.notifyDataSetChanged();
-            Toast.makeText(MainActivity.this, "Note removed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, R.string.ToastDelete, Toast.LENGTH_SHORT).show();
             return true;
         }
         return false;

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Anmerkungen</string>
+    <string name="search_hint">In Notizen suchen</string>
+    <string name="ToastPin">Angepinnt</string>
+    <string name="ToastUnpin">Nicht angepinnt</string>
+    <string name="ToastDelete">Hinweis entfernt</string>
+    <string name="pin">Anpinnen/Lösen</string>
+    <string name="delete">Notiz löschen</string>
+    <string name="editText_notes_hint">Text</string>
+    <string name="editText_title_hint">Title</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete_note">Delete note</string>
+</resources>

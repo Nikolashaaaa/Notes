@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Нотатки</string>
+    <string name="search_hint">Пошук в нотатках</string>
+    <string name="ToastPin">Закріплено</string>
+    <string name="ToastUnpin">Відкріплено</string>
+    <string name="ToastDelete">Примітку видалено</string>
+    <string name="pin">Закріпити/Відкріпити</string>
+    <string name="delete">Видалити нотаток</string>
+    <string name="editText_notes_hint">Text</string>
+    <string name="editText_title_hint">Title</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete_note">Delete note</string>
+</resources>

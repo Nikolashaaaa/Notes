@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Notes</string>
+    <string name="search_hint">Search in notes</string>
+    <string name="ToastPin">Pinned</string>
+    <string name="ToastUnpin">Unpinned</string>
+    <string name="ToastDelete">Note removed</string>
+    <string name="pin">Pin/Unpin</string>
+    <string name="delete">Delete note</string>
+    <string name="editText_notes_hint">Text</string>
+    <string name="editText_title_hint">Title</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete_note">Delete note</string>
 </resources>
