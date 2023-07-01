@@ -1,7 +1,5 @@
 package com.example.notes;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.notes.Models.Notes;
 
@@ -42,13 +42,13 @@ public class NotesTakerActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        imageView_save. setOnClickListener(new View.OnClickListener() {
+        imageView_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String title = editText_title.getText().toString();
                 String description = editText_notes.getText().toString();
 
-                if(title.isEmpty()) {
+                if (title.isEmpty()) {
                     Toast.makeText(NotesTakerActivity.this, "Please enter title", Toast.LENGTH_SHORT).show();
                     return;
                 }
